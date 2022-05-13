@@ -2,7 +2,7 @@
 require 'TAL.php';
 use TAL\TAL;
 
-$tal = New TAL('5325256391:AAFd4P4ABLgy4RydeBAfcXfkbaVj8_XRQXk');
+$tal = New TAL('ВАш ключ');
 $tal->getWebhookUpdates();
 $text 		= $tal->data['message']['text'];
 $message_id	= $tal->data['message']['message_id'];
